@@ -1,6 +1,16 @@
 import React from 'react';
+import {AppBar, Toolbar} from "@material-ui/core";
+
 const Pokedex = () => {
-    return <div>this is the pokedex page</div>;
+    return (
+        <>
+            <AppBar position="static">
+                <Toolbar />
+            </AppBar>
+            <div>this is our text</div>
+        </>
+    )
+
 
 };
 export default Pokedex;
